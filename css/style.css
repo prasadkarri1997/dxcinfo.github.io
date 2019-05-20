@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: url(../1.png);
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+}
+u1{
+	float: right;
+	list-style-type: name;
+	margin-top: 25px;
+}
+u1 li{
+	display: inline-block;
+}
+u1 li a{
+	text-decoration: name;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+u1 li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+u1 li.active above{
+	background-color: #fff;
+	color: #000;
+}
+	
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title{
+		position: absolute;
+		top: 50%;
+		color: #fff;
+		left: 50%;
+		transform: translate(-50%,-50%);
+}
+.btn{
+		position: absolute;
+		top: 15%;
+		color: #fff;
+		right: 5%;
+		transform: translate(-50%,-50%);
+}
